@@ -17,13 +17,13 @@ This repository contains a multi-domain expert **Conversational Chatbot** powere
 ```bash
 # Clone repo
 git clone https://github.com/Shubam081220/Conversational-Chatbot-GROQ
-cd GENE.ai
+cd Conversational-Chatbot-GROQ
 ```
-# Setup environment
+## Setup environment
 cp .env.example .env
-# Add your GROQ_API_KEY in .env
+Add your GROQ_API_KEY in .env
 
-# Run with Docker
+## Run with Docker
 docker-compose up -d
 
 Access at: http://localhost:8501
@@ -115,29 +115,6 @@ where = ["app"]
 python_files = "test_*.py"
 testpaths = ["tests"]
 ```
-3. Initialize Git Repository
-bash
-# Initialize git
-git init
-
-# Create main branch
-git checkout -b main
-
-# Add files
-git add .
-
-# Initial commit
-git commit -m "Initial commit: NexusAI Assistant"
-
-# Create GitHub repo and push
-gh repo create nexusai-assistant --public --source=. --remote=origin
-git push -u origin main
-4. Recommended GitHub Repository Settings
-Branch Protection Rules:
-
-- Require pull request reviews
-- Require status checks to pass
-- Require linear history
 
 # Secrets:
 
@@ -212,12 +189,3 @@ ini
 GROQ_API_KEY=your_key_here
 STREAMLIT_SERVER_PORT=8501
 ```
-This complete GitHub repository setup includes:
-- Proper Python project structure
-- CI/CD pipeline
-- Comprehensive documentation
-- Modern packaging configuration
-- Docker/Kubernetes support
-- Testing infrastructure
-- Issue templates (can be added in .github/ISSUE_TEMPLATE/)
-- All necessary configuration files
