@@ -1,9 +1,7 @@
-# GENE.ai 🚀
+# Conversational Chatbot with GROQ – Multi-Domain Expertise 🤖✨
 
-![image](https://github.com/user-attachments/assets/7db65d86-0e35-4e27-80b8-da250c5656c4)
+This repository contains a multi-domain expert **Conversational Chatbot** powered by **GROQ's large language models (LLMs)**. It is designed to provide intelligent, context-aware, and accurate responses across various domains like healthcare, education, finance, travel, etc.
 
-
-Advanced AI assistant powered by Groq's lightning-fast LLMs with multi-domain knowledge and conversation analytics.
 
 ## Features
 
@@ -14,56 +12,11 @@ Advanced AI assistant powered by Groq's lightning-fast LLMs with multi-domain kn
 - CI/CD pipeline
 - Responsive UI with dark/light mode
 
-## Repo Structure
-
-nexusai-assistant/
-├── .github/
-│   ├── workflows/
-│   │   └── ci-cd.yml
-├── app/
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── chat.py
-│   │   ├── memory.py
-│   │   └── utils.py
-│   ├── ui/
-│   │   ├── __init__.py
-│   │   ├── components.py
-│   │   └── layouts.py
-│   ├── __init__.py
-│   └── main.py
-├── configs/
-│   ├── __init__.py
-│   ├── default.yaml
-│   └── production.yaml
-├── tests/
-│   ├── __init__.py
-│   ├── test_chat.py
-│   └── test_ui.py
-├── docker/
-│   ├── nginx.conf
-│   └── Dockerfile.prod
-├── docs/
-│   ├── architecture.md
-│   └── setup.md
-├── scripts/
-│   ├── setup.sh
-│   └── deploy.sh
-├── .env.example
-├── .gitignore
-├── .dockerignore
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── pyproject.toml
-├── README.md
-└── LICENSE
-
 ## Quick Start
 
 ```bash
 # Clone repo
-git clone https://github.com/wahidpanda/Conversational-Chatbot-with-GROQ-with-Multi-Domain-Expertise-
+git clone https://github.com/Shubam081220/Conversational-Chatbot-GROQ
 cd GENE.ai
 ```
 # Setup environment
